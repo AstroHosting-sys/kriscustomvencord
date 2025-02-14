@@ -1,0 +1,77 @@
+/* Vencord & BetterDiscord Theme - Ocean Sunset (Hollow Discord Inspired) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --background-image: url('https://github.com/AstroHosting-sys/kriscustomvencord/blob/main/AP1GczPJxtddsk3jnGWHbuYTErD9b31mOziuZ36XYvceq50fWerFIowJ61XSw709-h945-s-no-gm.png'); /* Ensure the URL is publicly accessible */
+    --background-blur: 12px;
+    --background-opacity: 0.75;
+    --primary-color: #FF914D;
+    --secondary-color: #1B2A35;
+    --text-color: #FFFFFF;
+    --text-muted-color: #A8B3C1;
+    --accent-color: #FFB87D;
+    --chat-bubble-color: rgba(20, 30, 40, 0.6);
+    --chat-bubble-hover: rgba(30, 40, 50, 0.8);
+    --border-radius: 12px;
+    --glow-color: rgba(255, 145, 77, 0.6);
+}
+
+body, .appMount-2yBXZl {
+    background: var(--background-image) no-repeat center center fixed !important;
+    background-size: cover !important;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+/* Main UI Elements */
+.theme-dark .container-2o3qEW, 
+.theme-dark .chat-2ZfjoI, 
+.theme-dark .sidebar-1tnWFu, 
+.theme-dark .content-1jQy2l {
+    background: rgba(15, 20, 30, var(--background-opacity)) !important;
+    backdrop-filter: blur(var(--background-blur)) !important;
+}
+
+/* Chat Messages */
+.theme-dark .message-2qnXI6 {
+    background: var(--chat-bubble-color) !important;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+.theme-dark .message-2qnXI6:hover {
+    background: var(--chat-bubble-hover) !important;
+}
+
+/* Input Fields & Headers */
+.theme-dark .channelTextArea-1VQBuV, 
+.theme-dark .header-3OsQeK {
+    background: rgba(25, 35, 45, 0.7) !important;
+    border-radius: var(--border-radius);
+    padding: 8px;
+}
+
+/* Buttons */
+.theme-dark .button-38aScr {
+    background: var(--primary-color) !important;
+    color: var(--text-color) !important;
+    border-radius: var(--border-radius);
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.theme-dark .button-38aScr:hover {
+    background: var(--accent-color) !important;
+    box-shadow: 0 0 8px var(--glow-color) !important;
+}
+
+/* Links */
+.theme-dark .anchor-3Z-8Bb {
+    color: var(--primary-color) !important;
+    text-decoration: none !important;
+}
+
+.theme-dark .anchor-3Z-8Bb:hover {
+    color: var(--accent-color) !important;
+    text-shadow: 0 0 6px var(--glow-color) !important;
+}
