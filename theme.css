@@ -1,0 +1,68 @@
+/* Vencord Theme - Ocean Sunset (Hollow Discord Inspired) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --background-image: url('https://github.com/AstroHosting-sys/kriscustomvencord/blob/main/AP1GczPJxtddsk3jnGWHbuYTErD9b31mOziuZ36XYvceq50fWerFIowJ61XSw709-h945-s-no-gm.png?raw=true');
+    --background-blur: 12px;
+    --background-opacity: 0.75;
+    --primary-color: #FF914D;
+    --secondary-color: #1B2A35;
+    --text-color: #FFFFFF;
+    --text-muted-color: #A8B3C1;
+    --accent-color: #FFB87D;
+    --chat-bubble-color: rgba(20, 30, 40, 0.6);
+    --chat-bubble-hover: rgba(30, 40, 50, 0.8);
+    --border-radius: 12px;
+    --glow-color: rgba(255, 145, 77, 0.6);
+}
+
+body {
+    background: var(--background-image) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+}
+
+.theme-dark .container, .theme-dark .chat, .theme-dark .sidebar {
+    background: rgba(15, 20, 30, var(--background-opacity));
+    backdrop-filter: blur(var(--background-blur));
+}
+
+.theme-dark .message {
+    background: var(--chat-bubble-color);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+.theme-dark .message:hover {
+    background: var(--chat-bubble-hover);
+}
+
+.theme-dark .input, .theme-dark .header {
+    background: rgba(25, 35, 45, 0.7);
+    border-radius: var(--border-radius);
+    padding: 8px;
+}
+
+.theme-dark .button {
+    background: var(--primary-color);
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.theme-dark .button:hover {
+    background: var(--accent-color);
+    box-shadow: 0 0 8px var(--glow-color);
+}
+
+.theme-dark .link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.theme-dark .link:hover {
+    color: var(--accent-color);
+    text-shadow: 0 0 6px var(--glow-color);
+}
