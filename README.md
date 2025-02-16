@@ -1,1 +1,1 @@
-Kris Days Custom Vencord Theme
+Custom Vencord Themes for Friends
