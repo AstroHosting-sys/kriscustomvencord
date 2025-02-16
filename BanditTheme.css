@@ -1,0 +1,154 @@
+/*
+* @name BeachTheme
+* @author Code3Astro#0000 (Modified for Beach Theme)
+* @version 1.0
+* @description A beach-themed, easily customizable, and automatically updating theme
+* @invite U5dfhxpXPr
+* @source https://github.com/AstroHosting-sys/kriscustomvencord/blob/main/63g6Em8.jpg
+* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+*/
+
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+:root {
+  /*
+    Theme Background - Beach Sunset
+  */
+  --theme-background-image: url(https://i.imgur.com/crLtxXN.png);
+
+  /*
+    Main Theme Color - Ocean Blue
+  */
+  --main-theme-color: rgb(255, 105, 180);
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgba(0, 0, 0, 0.5);
+
+  /*
+    Home Icon Image - Palm Tree Icon
+  */
+  --home-icon-image: url(https://i.imgur.com/W8vJh7I.png);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 100%;
+
+  /*
+    Server Listing Width
+  */
+  --server-listing-width: 126px;
+
+  /*
+    Font Size
+  */
+  --font-size: 100%;
+
+  /*
+    Mention colors - Sunset Orange
+  */
+  --mention-color: rgba(186, 85, 211, 0.1);
+  --mention-sider: rgba(186, 85, 211, 1);
+  --mention-hover-color: rgba(186, 85, 211, 0.2);
+
+
+  /*
+    Server category hover color - Sandy Beige
+  */
+  --category-hover-color: rgb(255, 182, 193);
+
+  /*
+    Unread Server Animation - Wave Effect
+  */
+  --unread-server-animation: wave;
+
+  /*
+    Video / Screen share buttons - Light Ocean Blue
+  */
+  --video-screen-button-background-color: rgba(255, 105, 180, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(255, 105, 180, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+
+  /*
+    Role Title Color - Seafoam Green
+  */
+  --member-listing-role-color: rgb(147, 112, 219);
+
+  /*
+    Small User Popout
+  */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.5);
+  --small-user-popout-background-image-position: center;
+
+  /*
+    Big User Popout
+  */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(0, 0, 0, 0.5);
+  --big-user-popout-background-image-position: center;
+
+  /*
+    Message Box Transparency
+  */
+  --message-box-transparency: rgba(0, 0, 0, 0.5);
+
+  /*
+    Embed Background Transparency
+  */
+  --embed-background-transparency: rgba(0, 0, 0, 0.5);
+
+  /*
+    Context Menu Transparency
+  */
+  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+
+  /*
+    Add Server / Discovery Icon - Tropical Green
+  */
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: rgb(60, 179, 113);
+
+  /*
+    Scrollbar Colors - Sandy White
+  */
+  --scrollbar-color: rgba(147, 112, 219, 0.3);
+
+  /*
+    Unread Message Divider - Coral Red
+  */
+  --unread-message-divider-color: #ff69b4;
+  --unread-message-divider-font-color: #fff;
+
+  /*
+    New Messages Bar Color - Deep Blue
+  */
+  --new-messages-bar-background-color: #800080;
+  --new-messages-bar-font-color: #fff;
+  /*
+    Emoji Menu - Transparent Sand
+  */
+  --emoji-menu-background-color: rgba(255, 182, 193, 0.4);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(255, 182, 193, 0.2);
+
+  /*
+    Channel colors
+  */
+  --text-voice-channel-color: rgb(255, 255, 255);
+  --text-voice-channel-hover-color: rgb(255, 192, 203);
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #fff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+}
